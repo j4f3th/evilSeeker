@@ -10,6 +10,7 @@ cd evilSeeker
 pip install -r requirements.txt
 chmod +x evilSeeker.py
 ```
+- Python version suggested: 3.12.X
 
 ## Usage 📖
 
