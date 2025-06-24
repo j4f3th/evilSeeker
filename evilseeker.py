@@ -18,7 +18,7 @@ parser = argparse.ArgumentParser(description="Search URLs with google dorking in
 parser.add_argument("-d","--dork", help="The google dork.              Example: inurl:\"index.php\"", type=str)
 parser.add_argument("-n", "--numberesult", help="Number of results.        Example: 5", type=int)
 parser.add_argument("-l", "--language",help="Language of pages.        Example: 'en'", default="en", type=str)
-parser.add_argument("-r", "--region", help="Region of pages.     Example: us (Check: https://developers.google.com/custom-search/docs/json_api_reference#countryCodes)),", default="us" )
+parser.add_argument("-r", "--region", help="Region of pages.     Example: us (Check: https://developers.google.com/custom-search/docs/json_api_reference#countryCodes),", default="us" )
 parser.add_argument("-s", "--sleep", help="Time interval in seconds.   Example: 10", default=0,  type=float)
 parser.add_argument("-p", "--proxy", help='Proxy to use.               Example: "127.0.0.1:9050"', default=None,type=str)
 
