@@ -23,7 +23,7 @@ options:
   -l LANGUAGE, --language LANGUAGE
                         Language of pages. Example: 'en'
   -r REGION, --region REGION
-                        Region of pages. Example: us (Check: https://developers.google.com/custom-search/docs/json_api_reference#countryCodes)),
+                        Region of pages. Example: us (Check: https://developers.google.com/custom-search/docs/json_api_reference#countryCodes),
   -s SLEEP, --sleep SLEEP
                         Time interval in seconds. Example: 10
   -p PROXY, --proxy PROXY
