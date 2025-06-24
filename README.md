@@ -8,7 +8,7 @@ Tool for searching with google dorking in a faster and specific way with proxies
 git clone https://github.com/j4f3th/evilSeeker 
 cd evilSeeker
 pip install -r requirements.txt
-chmod +x evilSeeker.py
+chmod +x evilseeker.py
 ```
 - Python version suggested: 3.12.X
 
@@ -33,7 +33,7 @@ options:
 ## Example 🔎
 
 ~~~bash
-./evilSeeker.py -d 'inurl:index.php?id=' -n 5 -l 'en' -r 'us' -s 3 -p 127.0.0.1:9050
+./evilseeker.py -d 'inurl:index.php?id=' -n 5 -l 'en' -r 'us' -s 3 -p 127.0.0.1:9050
 ~~~
 
 ## DISCLAIMER ⚠️
